@@ -2,3 +2,4 @@ node_modules
 database
 tmp/*
 !tmp/.gitkeep
+.DS_Store
