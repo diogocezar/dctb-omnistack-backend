@@ -15,7 +15,9 @@ io.on('connection', (socket) => {
   })
 })
 
-mongoose.connect('mongodb://localhost:27017/oministack', { useNewUrlParser: true })
+mongoose.connect('mongodb+srv://sa:<password>@cluster0-ojprl.mongodb.net/test?retryWrites=true', {
+  useNewUrlParser: true,
+})
 
 app.use((req, res, next) => {
   req.io = io
