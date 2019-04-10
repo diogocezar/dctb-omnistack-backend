@@ -1,4 +1,4 @@
-(module.exports = {
+{
   "env": {
     "es6": true,
     "node": true
@@ -16,4 +16,4 @@
     "semi": [2, "never"],
     "class-methods-use-this": ["error", { "exceptMethods": ["store", "show"] }]
   }
-})
+}
